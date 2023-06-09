@@ -9,7 +9,7 @@ headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
             "Content-Type":"application/json"
             }
 
-payload = {"login": password, "password": mail, "undelete": "false"}
+payload = {"login": mail, "password": password, "undelete": "false"}
 
 data = requests.Session().post("https://discord.com/api/v9/auth/login",headers=headers,json=payload)
 
