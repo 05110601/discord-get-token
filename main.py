@@ -11,7 +11,7 @@ headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
 
 payload = {"login": mail, "password": password, "undelete": "false"}
 
-data = requests.Session().post("https://discord.com/api/v9/auth/login",headers=headers,json=payload)
+data = requests.post("https://discord.com/api/v9/auth/login",headers=headers,json=payload)
 
 print(data.status_code)
 print(data.text)
