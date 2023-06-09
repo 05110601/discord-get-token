@@ -10,5 +10,5 @@ pip install requests
 proxyを使用するとhccaptureが出る可能性があります
 
 # 開発環境
-[x] python 3.8.3
-[x] requests 2.30
+`python 3.8.3`
+`requests 2.30`
