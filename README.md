@@ -7,7 +7,7 @@ pip install requests
 
 
 # 注意
-proxyを使用するとhccaptureが出る可能性があります
+proxyを使用するとhcaptureが出る可能性があります
 
 # 開発環境
 `python 3.8.3`
